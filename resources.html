@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JeeTards Resources</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #1e1e2f, #2c2c3c);
+      color: #fff;
+      padding: 2rem;
+    }
+
+    .loading-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #0f0f1a;
+      color: #00ffe7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 10000;
+      font-size: 1.5rem;
+    }
+
+    .loading-screen img {
+      width: 180px;
+      margin-top: 1rem;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      color: #00ffe7;
+      text-shadow: 0 0 10px #00ffe755;
+    }
+
+    .section {
+      margin-bottom: 3rem;
+    }
+
+    .section h2 {
+      color: #00ffe7;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .note-card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1rem 1.5rem;
+      margin: 0.5rem 0;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      transition: 0.3s;
+    }
+
+    .note-card:hover {
+      transform: translateY(-2px);
+      background: rgba(0, 255, 231, 0.08);
+    }
+
+    .note-card a {
+      color: #00ffe7;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .note-card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <script>
+    window.onload = function () {
+      setTimeout(() => {
+        document.querySelector('.loading-screen').style.display = 'none';
+      }, 3000);
+    };
+  </script>
+</head>
+<body>
+  <div class="loading-screen">
+    <div>Checking if you're a true JEEtard... 🔍</div>
+    <img src="https://media.tenor.com/Zk1I-KKRCkYAAAAd/nerd.gif" alt="Loading JEEtard Check" />
+  </div>
+
+  <h1>📚 JEEtard Resources</h1>
+
+  <div class="section">
+    <h2>🏫 PIRATES BOOK</h2>
+    <div class="note-card">
+      <a href="https://drive.google.com/file/d/1o7M8NSf51CzAj_60vEzD3823Wuw1eF7G/view?usp=drive_link" target="_blank">📘 HC Verma vol-1 </a>
+      <a href="https://drive.google.com/file/d/1oBG0fIvneVFdmVqj8tct5l7zW71Y6Mpb/view?usp=drive_link" target="_blank">📘 HC Verma vol-2 </a>
+      <a href="" target="_blank"> 💀 irodov Physics </a>
+
+    </div>
+  </div>
+
+    <div class="section">
+    <h2>🏫 Coaching Institutes / 3rd-Party Notes</h2>
+    <div class="note-card">
+      <a href="https://drive.google.com/drive/folders/1h9Hz-d8OyRH7kgGPNrS-kMxES0vuVshY?usp=drive_link" target="_blank"> RESONANCE COACHING COMBO 11th + 12th (Notes , books , Practice Papers)</a>
+    </div>
+        <div class="note-card">
+      <a href="https://drive.google.com/drive/folders/15VUgBlukdq8ItVEwcbxU7O5RDtsPlD7m?usp=drive_link" target="_blank">    A fellow JEEtards notes - CHEMISTRY </a>
+      <a href="https://drive.google.com/file/d/1nAef7msFUPuJQzNKD3Ht-J_mL3MqKxS6/view?usp=drive_link" target="_blank">      A fellow JEEtards notes - PHYSICS </a>
+      <a href="https://drive.google.com/file/d/17umFDfRfsgQ6KaPBx1ACxVL-F9cOdqft/view?usp=drive_link" target="_blank">      A fellow JEEtards notes - MATHS </a>
+    </div>
+
+  </div>
+
+  <div class="section">
+    <h2>📝 My Notes (coming soon) </h2>
+    <div class="note-card">
+      <a href="#" target="_blank">📓 PHYSICS (Units And Dimensions 11th)</a>
+      <a href="https://drive.google.com/file/d/1X9RJZczEY_N_5XfT7hdmdmoa0nNths5U/view?usp=drive_link" target="_blank">📓 PHYSICS (Basic Maths 11th)</a>
+    </div>
+    <div class="note-card">
+      <a href="#" target="_blank">📒 Chemistry (Mole Concept)</a>
+    </div>
+    <div class="note-card">
+      <a href="#" target="_blank">📔 Maths (Basic Maths)</a>
+    </div>
+  </div>
+</body>
+</html>
